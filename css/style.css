@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li{ margin: 0;padding: 0;list-style: none; }
+a { color: #000; text-decoration: none; }
+a:hover { color: #2470c5; text-decoration: underline; }
+
+body{ color: #000; font-size: 14px; font-family: Microsoft YaHei,arial; background: url(../images/home_bg.png) no-repeat; overflow:hidden; font-weight: normal;}
+#header_bg { width: 1480px; height: 160px; margin: 0 auto; background: url(../images/header_bg.png) no-repeat;}
+#header { background-color: #fff; width: 1040px ; height: 100px; margin: 0 auto; padding: 0 80px; overflow: hidden;}
+h1 {float: left; width: 68px; height: 42px; margin-top: 38px;}
+h1 a {width: 68px; height: 0; background: url(../images/log.png) no-repeat; padding-top: 42px;  overflow: hidden; display: block;}
+.nav {float: right; height: 20px; margin-top: 62px; font-size: 16px;}
+.nav ul li { float: left; width: 100px; text-align: right;}
+.nav ul li.current a{ color: #2470c5;}
+
+/*作品页样式*/
+#bg { background: url(../images/other_bg.png) no-repeat;}
+#item { width: 1040px; margin: 0 auto; overflow: hidden;}
+h2{ font-size: 16px; padding-left: 26px; background: url(../images/icon.png) no-repeat 0 4px;font-weight: normal;}
+#item ul li { width: 320px; height: 400px; background-color: #eee; border-bottom: 1px #ccc solid; float: left; margin-top: 30px; text-align: center;}
+.distance { margin: 0 40px;}
+#item ul li img { margin: 20px;}
+#item ul li p { margin:4px 0;}
+#item ul li a { color: #2470c5;}
+#brand {  width: 1040px;margin: 60px auto 0; overflow: hidden;}
+#brand ul li{ width: 190px; height: 80px; float: left; margin:30px 20px 0 0;text-align:center; border:1px solid #ccc;line-height: 80px;background: url(../images/i_logo1.png) no-repeat center center;}
+#brand ul li.nodistance { margin-right: 0;}
+#brand ul li p { display: block; width: 0; background: rgba(255,255,255,0.9); overflow:hidden; font-weight:bold; font-size:14px; color:#000;}
+
+/*关于页样式*/
+#bg .me { width: 1040px; margin: 0 auto; overflow: hidden;}
+#bg .me li { float: left; width: 120px; height: 40px; border: 1px solid #ccc; margin-right: 40px; line-height: 40px; text-align: center;}
+#bg .me li.current { color: #2470c5;}
+#bg .basis { width: 1040px; margin: 0 auto; overflow: hidden;}
+#bg .basis img { float: left; margin-top: 90px;}
+#bg .basis div { float: right; width: 500px;margin-right: 60px; margin-top: 170px;}
+#bg .basis div .top { overflow: hidden; text-align: center; margin: 38px 0 10px;}
+#bg .basis div .top .left { float: left; }
+#bg .basis div .top .right { float: right; }
+#bg .basis div hr { color: #ccc; width: 500px; size: 1px;}
+#bg .basis div h3 { margin: 30px 0 10px; color: #666; font-size: 18px; font-weight: normal;}
+#bg .basis div .wish { width: 500px; line-height: 24px;}
+#bg .basis div .more { width: 500px; line-height: 24px; color: #666;}
+#bg .experience { width: 1040px; margin: 0 auto; overflow: hidden; display: none;}
+#bg .experience div { width: 472px; height: 600px; border: 14px solid #eee; margin-top: 40px;}
+#bg .experience .left { float: left; text-align: center;}
+#bg .experience .left h4 { width: 220px; height: 28px; margin:120px auto 50px; background: url(../images/time1.png) no-repeat;}
+#bg .experience hr { color: #ccc; width: 120px; size: 1px; margin-left: 176px;}
+#bg .experience .name { font-size: 24px; margin: 62px 0 0; color: #666; font-weight: 100;}
+#bg .experience a { color: #2470c5; font-size: 18px;}
+#bg .experience h5 { font-size: 20px; color: #999; margin: 68px 0 30px; font-weight: 400;}
+#bg .experience .duty { width: 324px; margin: 0 auto; text-align: left; line-height: 24px;}
+#bg .experience .right { float: right; text-align: center;}
+#bg .experience .right h4 { width: 220px; height: 28px; margin:120px auto 50px; background: url(../images/time2.png) no-repeat;}
+#bg .skill { width: 1040px; height: 680px;margin: 60px auto; overflow: hidden; background: url(../images/about_words.png) no-repeat 0 0; position: relative; display: none;}
+#bg .skill p { margin: 86px 0 0 120px; line-height: 40px;}
+#bg .skill div { width: 427px; height: 405px; background: url(../images/about_skill.png) no-repeat; position: absolute; top:240px; right: 160px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎进入chreng的个人站</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+</head>
+<body id="bg">
+	<div id="header_bg">
+		<div id="header">
+			<h1><a href="../index.html">chreng</a></h1>
+			<div class="nav">
+				<ul>
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="works.html">作品</a></li>
+					<li class="current"><a href="about.html">关于</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<ul class="me">
+		<li class="current">基础信息</li>
+		<li>工作经历</li>
+		<li>个人技能</li>
+	</ul>
+	<div class="basis">
+		<img src="../images/about_me.png">
+		<div>
+			<p class="top">
+				性别：女
+				<span class="left">
+					姓名：chreng
+				</span>
+				<span class="right">
+					学历：本科
+				</span>
+			</p>
+			<hr/>
+			<p class="top">
+				身高：168cm
+				<span class="left">
+					年龄：25
+				</span>
+				<span class="right">
+					体重：52kg
+				</span>	
+			</p>	
+			<hr/>
+			<h3>
+				chreng小心愿
+			</h3>
+			<p class="wish">
+				2014年毕业于湖南涉外经济学院国际经济与贸易系，喜欢绘画，热爱设计，渴望加入一个设计团队共同学习与进步。
+			</p>
+			<h3>
+				个人站说明
+			</h3>
+			<p class="more">
+				此次网站没有购买域名与服务器，使用的是国外的免费共享资源，网站整体从简设计。感兴趣的朋友可以通过招聘平台简历中的信息联系本人，另外非常感谢您能抽时间查看这个网页，谢谢！
+			</p>
+		</div>
+	</div>
+	<div class="experience">
+		<div class="left">
+			<h4>
+			</h4>
+			<hr/>
+			<p class="name">
+				上海辰商软件科技有限公司
+			</p>
+			<a href="http://www.vmcshop.com/" target="_blank">www.vmcshop.com</a>
+			<h5>
+				UI设计岗位
+			</h5>
+			<p class="duty">
+				负责SAAS平台项目，分析客户需求，完成PC端及移动端商城的视觉与交互效果；参与重大项目UI规范制定，根据产品原型，按时按质完成分配的设计任务。
+			</p>
+		</div>
+		<div class="right">
+			<h4>
+			</h4>
+			<hr/>
+			<p class="name">
+				上海同济养正堂
+			</p>
+			<a href="http://www.tjzty.com/" target="_blank">www.tjyzt.com</a>
+			<h5>
+				视觉设计岗位
+			</h5>
+			<p class="duty">
+				负责制作公司相关课程与产品展示PPT，收集产品资料，参与竞品分析，完成产品宣传单页、产品画册、产品包装等的设计工作。
+			</p>
+		</div>
+	</div>
+	<div class="skill">
+		<p>
+			熟练使用Photoshop、Illustrator设计软件，具有良好的色彩与版式设计能力。
+			<br/>
+			熟悉Axure软件，能制作产品原型，对交互设计和用户体验有一定理解。
+			<br/>
+			擅长电商移动端及web端设计，熟悉电商页面逻辑，能够独立完成页面设计与标注。
+			<br/>
+			熟悉DIV+CSS布局，了解HTML5和CSS3，有购买过域名和服务器，完成个人站展示。
+			<br/>
+			有平面设计经验，工作期间设计制作了名片、工作牌、产品宣传单页、产品画册与包装等。
+			<br/>
+			良好的手绘能力与沟通能力，热爱设计，学习能力强，有责任心。
+		</p>
+		<div></div>
+	</div>
+	<script type="text/javascript" >
+		$(".me li").bind('click',function(event) {
+			var $that = $(this);
+			var selectLiText = $that.text();
+			if ($(".me .current").text()!=selectLiText) {
+				$(".me .current").removeClass('current');
+				$that.addClass('current');
+				if ('基础信息'==selectLiText) {
+					$(".experience").css('display','none');
+					$(".skill").css('display','none');
+					$(".basis").css('display','block');
+				}else if ('工作经历'==selectLiText) {
+					$(".basis").css('display','none');
+					$(".skill").css('display','none');
+					$(".experience").css('display','block');
+				}else if ('个人技能'==selectLiText) {
+					$(".basis").css('display','none');
+					$(".experience").css('display','none');
+					$(".skill").css('display','block');
+				}
+			}
+		});
+
+	</script>
+
+</body>
+</html>
