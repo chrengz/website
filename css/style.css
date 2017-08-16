@@ -4,9 +4,8 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li{ margin: 0;padding: 0;l
 a { color: #000; text-decoration: none; }
 a:hover { color: #2470c5; text-decoration: underline; }
 
-body{ color: #000; font-size: 14px; font-family: Microsoft YaHei,arial; background: url(../images/home_bg.png) no-repeat; overflow:hidden; font-weight: normal;}
-#header_bg { width: 1480px; height: 160px; margin: 0 auto; background: url(../images/header_bg.png) no-repeat;}
-#header { background-color: #fff; width: 1040px ; height: 100px; margin: 0 auto; padding: 0 80px; overflow: hidden;}
+body{ color: #000; font-size: 14px; font-family: Microsoft YaHei,arial; background: url(../images/home_bg.png) no-repeat center 0; font-weight: normal;}
+#header { background-color: #fff; width: 1040px ; height: 100px; margin: 0 auto 60px; }
 h1 {float: left; width: 68px; height: 42px; margin-top: 38px;}
 h1 a {width: 68px; height: 0; background: url(../images/log.png) no-repeat; padding-top: 42px;  overflow: hidden; display: block;}
 .nav {float: right; height: 20px; margin-top: 62px; font-size: 16px;}
@@ -14,7 +13,7 @@ h1 a {width: 68px; height: 0; background: url(../images/log.png) no-repeat; padd
 .nav ul li.current a{ color: #2470c5;}
 
 /*作品页样式*/
-#bg { background: url(../images/other_bg.png) no-repeat;}
+#bg { background: url(../images/other_bg.png) no-repeat center 0;}
 #item { width: 1040px; margin: 0 auto; overflow: hidden;}
 h2{ font-size: 16px; padding-left: 26px; background: url(../images/icon.png) no-repeat 0 4px;font-weight: normal;}
 #item ul li { width: 320px; height: 400px; background-color: #eee; border-bottom: 1px #ccc solid; float: left; margin-top: 30px; text-align: center;}
@@ -29,7 +28,7 @@ h2{ font-size: 16px; padding-left: 26px; background: url(../images/icon.png) no-
 
 /*关于页样式*/
 #bg .me { width: 1040px; margin: 0 auto; overflow: hidden;}
-#bg .me li { float: left; width: 120px; height: 40px; border: 1px solid #ccc; margin-right: 40px; line-height: 40px; text-align: center;}
+#bg .me li { float: left; width: 120px; height: 40px; border: 1px solid #ccc; margin-right: 40px; line-height: 40px; text-align: center; cursor: pointer;}
 #bg .me li.current { color: #2470c5;}
 #bg .basis { width: 1040px; margin: 0 auto; overflow: hidden;}
 #bg .basis img { float: left; margin-top: 90px;}
